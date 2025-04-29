@@ -1,0 +1,11 @@
+device = "cuda:0"
+caption_path = "../data/train.csv"
+healthy_path = "../SoyNet/Preprocessing_SoyNet_Data/Camera Clicks_256_256/Healthy_Preprocessing data"
+disease_path = "../SoyNet/Preprocessing_SoyNet_Data/Camera Clicks_256_256/Disease_Preprocessing data"
+batch_size = 8
+learning_rate = 1e-4
+epochs = 50
+weight_dir = "weights.pth"
+graph_path = "../demo/loss_accuracy_graph.png"
+val_csv_file = "../data/test.csv"
+inference_csv = "inference.csv"
